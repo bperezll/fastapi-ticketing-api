@@ -1,0 +1,7 @@
+# Ignorar __pycache__ en cualquier directorio
+__pycache__/
+.venv/
+
+# Ignorar archivos compilados de Python
+*.py[cod]
+*$py.class
