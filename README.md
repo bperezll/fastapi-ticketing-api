@@ -10,6 +10,6 @@ DB_PORT=port
 DB_NAME="database"
 ```
 
-## Datos de Prueba
+## Datos de prueba
 
 El archivo **dump-fastapi_test_01.sql** contiene datos de prueba para importar en la base de datos.
