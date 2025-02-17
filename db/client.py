@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
 # Create an Engine
-mariadb_url = f"mariadb+pymysql://{"root"}:{"o`?ZfVT?p|aK+]!O"}@{"localhost"}:{3306}/{"fastapi_test_01"}"
+mariadb_url = f"mariadb+pymysql://{"username"}:{"password"}@{"server"}:{"port"}/{"database_name"}"
 engine = create_engine(mariadb_url, echo=True)
 
 # Create session to interact with database
